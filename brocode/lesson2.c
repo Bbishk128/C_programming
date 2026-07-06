@@ -50,7 +50,7 @@ int main()
 
     //bool нь true буюу 1 false буюу 0 гэсэн утга авна.
     bool isStudent = 1;
-// isStudentнь 1 буюу true учраас доорх if нөхцөл биелэж сурагч мөн гэж хэвлэнэ
+    // isStudentнь 1 буюу true учраас доорх if нөхцөл биелэж сурагч мөн гэж хэвлэнэ
     if(isStudent){
         printf("You are student\n");
     } else{
