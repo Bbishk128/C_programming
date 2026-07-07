@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int age;
     float gpa;
@@ -16,8 +17,13 @@ int main(){
     printf("Enter your grade: ");
     scanf(" %c", &grade);
 
+    getchar(); // энэ нь нэр авсны дараа автоматаар \n нэмэгдэхээс сэргийлж байгаа.
     printf("Enter your name: ");
-    scanf("%s", &name);
+    fgets(name, sizeof(name), stdin); // scanf зай илрүүлэнгүүтээ зогсдог.
+                                      // 2 нэр хадгалахгүй тул fgets хэрэглэнэ.
+                                      // энэ функцын бүтэц нь эхлээд хадгалах string ээ оруулна,
+                                      // түүнийхээ хэмжээг оруулна, stdin буюу standard input гэж бичнэ.
+                                      //  нэр авсныц дарааа автоматаар \n нэмэгдэнэ
 
     printf("\nYour age: %d\n", age);
     printf("Your gpa: %f\n", gpa);
