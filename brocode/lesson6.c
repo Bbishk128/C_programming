@@ -3,7 +3,7 @@
 
 int main(){
 
-    // shopping car programm
+    // shopping cart programm
 
     char food[50];
     int quantity;
