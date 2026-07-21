@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-void Birthdaysong(char name[], int age){
+//function == Дуудагдаж дахин ашиглаж болдог хэсэг код.
+
+// Birthdaysong функц
+void Birthdaysong(char name[], int age){  //char name[], int age гэж байгаа нь perimeter нь шүү
     printf("Happy birthday to you\n");
     printf("Happy birthday to YOU\n");
     printf("Happy birthday to my dear %s\n", name);
@@ -19,7 +22,7 @@ int main(){
     printf("Please enter your age: ");
     scanf("%d", &age);
 
-    Birthdaysong(name, age);
+    Birthdaysong(name, age);//name, age гэж байгаа нь argument шүү
     Birthdaysong(name, age);
     Birthdaysong(name, age);
 }
