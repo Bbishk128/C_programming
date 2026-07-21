@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <windows.h>
 
+// Кодыг тодорхой тоогоор давт гэсэн утгатай loop юм.
+//   for(initialization; condition; update)
+
 int main(){
 
     int i;
