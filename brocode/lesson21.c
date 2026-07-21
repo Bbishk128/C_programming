@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <windows.h>
 
 int main(){
 
@@ -19,8 +20,9 @@ int main(){
     // 10-с 0 хүртэл хэвлэх
     printf("10-с 0 хүртэл хэвлэх\n");
     for (i = 10; i >= 0; i--){
+        Sleep(1000);           // windows.h header ийн тусламжтайгаар удаанаар тоолж байгаа юм.
         printf("%d\n", i);
     }
-
+    printf("HAPPY NEW YEAR!!!");
     return 0;
 }
